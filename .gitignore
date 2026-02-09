@@ -1,0 +1,14 @@
+
+*.cs
+*.cache
+*.BuildWithSkipAnalyzers
+*.txt
+*.dll
+*.json
+*.props
+*.pdb
+*.exe
+*.targets
+*.vsidx
+*.editorconfig
+/BancoCentralAtualSLN/.vs/BancoCentralAtualSLN
