@@ -1,5 +1,5 @@
 
-*.cs
+
 *.cache
 *.BuildWithSkipAnalyzers
 *.txt
@@ -12,3 +12,5 @@
 *.vsidx
 *.editorconfig
 /BancoCentralAtualSLN/.vs/BancoCentralAtualSLN
+*.bin
+/BancoCentralAtualSLN/BancoCentralAtual/obj
