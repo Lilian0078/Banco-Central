@@ -21,4 +21,10 @@ class Program
 
         Console.ReadLine();
     }
+
+    public static void ExibirRelatorio(decimal valorBruto, IConversorGrandeza conversor)
+    {
+        decimal valorConvertido = conversor.Converter(valorBruto);
+        Console.WriteLine($"Valor convertido: {valorConvertido:N2} {conversor.ObterSimbolo()}");
+    }
 }
