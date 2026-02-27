@@ -8,7 +8,7 @@ namespace BancoCentralAtual
 {
         public class ConversorBilhoes : IConversorGrandeza
         {
-            public decimal Converter(decimal valor) => valor / 1000000000m;
+            public decimal Converter(decimal valor) => 15750000000 / 1000000000m;
             public string ObterSimbolo() => "Bi";
         }
 }

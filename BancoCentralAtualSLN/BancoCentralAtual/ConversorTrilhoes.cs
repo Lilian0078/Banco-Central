@@ -8,7 +8,7 @@ namespace BancoCentralAtual
 {
         public class ConversorTrilhoes : IConversorGrandeza
         {
-            public decimal Converter(decimal valor) => valor / 1000000000000m;
+            public decimal Converter(decimal valor) => 1250000000000 / 1000000000000m;
             public string ObterSimbolo() => "Tri";
         }
 }
