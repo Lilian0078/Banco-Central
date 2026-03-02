@@ -19,13 +19,18 @@ class Program
     Console.WriteLine($"Pix de R$ {meuPix.Valor} é válido? {meuPix.Validar()}");
     Console.WriteLine($"TED de R$ {meuTed.Valor} é válido? {meuTed.Validar()}");
 
+    Console.WriteLine("\nRelatório em Milões:");
+    ExibirRelatorio(meuTed.Valor, new ConversorMilhoes());
+
     Console.WriteLine("\nRelatório em Bilhões:");
     ExibirRelatorio(meuPix.Valor, new ConversorBilhoes());
 
     Console.WriteLine("\nRelatório em Trilhões:");
     ExibirRelatorio(meuTed.Valor, new ConversorTrilhoes());
 
-    Console.ReadLine();
+    
+
+        Console.ReadLine();
 }
 
     public static void ExibirRelatorio(decimal valorBruto, IConversorGrandeza conversor)
